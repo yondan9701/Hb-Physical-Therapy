@@ -1,0 +1,90 @@
+#t{
+  
+    background-color: white;
+    
+}
+
+#servi{
+
+
+ height: 235px;
+ border-radius:4px ;
+ 
+}
+#servi1{
+    height: 400px;
+}
+
+#mensaje{
+    width: auto;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    
+
+}
+
+#caja{
+
+   background-attachment: fixed;
+   height: 100vh;
+   padding-right: 90px;
+   padding-top: -180px;
+   margin-top: -180px;
+   opacity: 0.9;
+   
+}
+
+#obj{
+
+    
+    height: 200px;
+    border-radius: 6px !important;
+    color:black;
+    
+  
+}
+
+#caja2{
+   
+    
+    margin-top: -250px;
+    padding-top: -250px;
+    
+
+}
+h4{
+    color: white;
+    
+
+}
+#h2{
+  
+    margin-top: -150px;
+    padding-top: -150px;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+
+}
+#he{
+
+    padding-top: 60px;
+    margin-top: 60px;
+   
+}
+
+#bn{
+ 
+    padding-top: -35px;
+    margin-top: -35px;
+}
+
+#servi2{
+
+    width: 500px;
+    height: 300px;
+    margin-left: 35px;
+    padding-left: 35px;
+    border-radius: 7rem;
+    opacity: 0.9;
+}
