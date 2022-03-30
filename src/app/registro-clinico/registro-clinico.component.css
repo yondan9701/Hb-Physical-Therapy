@@ -1,0 +1,186 @@
+form{
+    margin-top: 2rem;
+    height: auto;
+  }
+  .inicioSesion{
+    flex-basis: 60% !important;
+    max-width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 5px 5px 10px 10px  ;
+    background: rgba(255,255, 255, 0.27);
+  }
+  .emails,.paswors{
+    display: flex !important;
+    position:  relative !important;
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 2rem;
+    margin-bottom: -.5rem;
+  }
+  .bloque2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,select{
+    background-color: white;
+    border: solid 0.5px aqua !important;
+    border-radius: .5rem;
+  }
+  .genero{
+      margin-left: -1rem !important;
+  }
+  .btn{
+    display: flex;
+    position: relative;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    flex-basis: 98%;
+    max-width: 98%;
+    width: 98%;
+    margin-top: 3% !important;
+  }
+  .bt1{
+    background-color: aqua !important;
+  }
+  button{
+   position: absolute;
+   display: flex !important;
+    flex-direction: column !important;
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    padding-left: 40.5%;
+    -webkit-text-stroke: .8% black !important;
+    border-radius: 7% !important;
+    
+  }
+  .loginicorre2{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    margin-left: -4%;
+    margin-top: 1.5%;
+  }
+  .loginicorre2a{
+    position: absolute !important;
+    flex-direction: column !important;
+    display: flex !important;
+    margin-left: -7%;
+    margin-top: 3%;
+  }
+  .Registrate{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 5.5%;
+    margin-left: 20% !important;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    
+  }
+  .ini{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 2rem;
+    width: 50%;
+  }
+  .iniciarSesTitulo{
+    position: relative;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 2rem;
+  }
+  @media only screen and (max-width:1366px) {
+    .na{
+
+        margin-top: -.5rem;
+    }
+    input{
+
+        min-height: 3rem !important;
+        height: 3rem !important;
+    }
+    .ini,.iniciarSesTitulo,small{
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+       
+    }
+    .Registrate{
+        position: absolute;
+        margin-left: -.5rem !important;
+        margin-top: 6.5% !important;
+    }
+    .ini{
+        margin-top: 1rem !important;
+    }
+    button{
+        padding-left: 8rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+    .loginicorre2{
+        margin-left: -5% !important;
+    }
+    .loginicorre2a{
+        margin-left: -9.5% !important;
+    }
+    label{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: -1rem;
+        color: #d9d9d9;
+        font-family: 'Signika Negative', sans-serif;
+        font-weight: 200;
+    }
+   
+  }
+  label{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: -1rem;
+    color: #d9d9d9;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 200;
+}
+@media only screen and (max-width:866px) {
+    button{
+        padding-left: 5rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+    .n1{
+        padding-left: 4rem !important;
+    }
+    .loginicorre2a{
+        margin-left: -11% !important;
+    }
+}
+.dtsMedico{
+    position:  absolute !important;
+    display: flex !important;
+    margin-top: 10% !important;
+}
+.clinicos{
+    position:absolute !important;
+    display: flex !important;
+    margin-top: 17.5rem !important ;
+    margin-left: 25% !important;
+}

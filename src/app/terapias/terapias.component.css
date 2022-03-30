@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Merriweather+Sans&family=Signika+Negative&display=swap');
+.contenedor2{
+    flex-basis: 100% !important;
+    max-width: 100%!important;
+    width: auto !important;
+    display: flex !important;
+    position: relative;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    justify-content: center;
+  
+    
+}
+
+.contenidosProductos{
+
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+   width: 100% !important;
+   padding-top: 2vh;
+   margin-top: 2vh;
+   padding-bottom: 5vh;
+   margin-bottom:  5vh;
+   margin-left: auto;
+   margin-right: auto;
+   position:  relative !important;
+   display: flex !important; 
+  
+   
+}
+@media only screen and (max-width:2000px) {
+   .productoCbeza{
+       flex-basis: 60% !important;
+       max-width: 60% !important;
+       width: 60% !important;
+       display: flex;
+       margin-left: auto !important;
+       margin-right: auto !important;
+       justify-content: center !important;
+       
+   }
+    .leyendaCbeza{
+   
+       font-size: 4.5vh !important;
+       position: relative;
+       display: flex;
+       margin: auto;
+       margin-left: -2rem !important;
+           
+    }
+
+    @media only screen and (max-width:1366px){
+       .productoCbeza{
+           flex-basis: 60% !important;
+           max-width: 60% !important;
+           width: 60% !important;
+           display: flex;
+           margin-left: auto !important;
+           margin-right: auto !important;
+           justify-content: center !important;
+           
+       }
+        .leyendaCbeza{
+       
+           font-size: 5vh !important;
+           position: relative;
+           display: flex;
+           margin: auto;
+           margin-left: -1rem !important;
+               
+        }  
+        .contenidosProductos{
+           padding-bottom: 7vh;
+           margin-bottom:  7vh;
+
+        }   
+    
+     }
+     @media only screen and (max-width:866px){
+       .productoCbeza{
+           flex-basis: 100% !important;
+           max-width: 100% !important;
+           width: 100% !important;
+           display: flex;
+           margin-left: auto !important;
+           margin-right: auto !important;
+           justify-content: center !important;
+          
+           
+       }
+        .leyendaCbeza{
+       
+           font-size: 3vh !important;
+           flex-basis: 100%;
+           max-width: 100%;
+           width: 100%;
+               
+        }
+        .contenidosProductos{
+
+           padding-top: 2rem !important;
+           margin-top:2rem !important ;
+        }
+        .logoeco{
+            margin-left: auto !important;
+            margin-right: auto !important;
+            flex-basis: 20vh !important;
+            max-width: 20vh !important;
+            width: 20vh !important;
+        }
+       .flexsearch--wrapper{
+           margin-top: -11vh !important;
+       }
+
+    
+      }
+      @media only screen and (max-width:600px){
+       .productoCbeza{
+           flex-basis: 100% !important;
+           max-width: 100% !important;
+           width: 100% !important;
+           display: flex;
+           margin-left: auto !important;
+           margin-right: auto !important;
+           justify-content: center !important;
+           flex-direction: column;
+           
+       }
+        .leyendaCbeza{
+       
+           font-size: 2vh !important;
+           position: relative;
+           display: flex;
+           margin-left: auto;
+           margin-right:auto;
+           justify-content: center;
+               
+        }
+        .contenidosProductos{
+
+           padding-top: -10rem !important;
+           margin-top:-10rem !important ;
+        }
+        .logoeco{
+            margin-left: auto !important;
+            margin-right: auto !important;
+            flex-basis: 20vh !important;
+            max-width: 20vh !important;
+            width: 20vh !important;
+        }
+    
+}
+
+
+}
+
+
+.cajasProd{
+
+   margin-right: 1vh;
+   display: flex;
+   position: relative !important;
+   margin-right: 2vh !important;
+   flex-basis: 30% !important;
+   max-width: 30% !important;
+   width: 30% !important;
+   padding-bottom: 2vh !important;
+   height: 75% !important;
+
+   
+   }
+   
+   .cuadriculaProd{
+     position: relative;
+     margin-right: auto !important;
+     margin-left: auto !important;
+     flex-basis: 80%;
+     max-width: 80%;
+     width: 80%;
+     background-color: red;
+     
+     
+
+   }
+   
+   .svgProd{
+     
+   margin: 0% !important;
+   padding: 0% !important;
+   flex-basis: 40vh !important;
+   max-width: 40vh !important;
+   width: 40vh !important;
+   position: relative !important;
+   margin-right: auto !important;
+   margin-left: auto !important;
+   
+
+   }
+   
+   .productoProd{
+     zoom: 200% !important;
+     flex-basis: 100% !important;
+     max-width:100% !important;
+     width: 100% !important;
+     min-height: 50% !important ;
+     height: 50% !important;
+     border-radius: 3% !important;
+    
+     
+     
+   }
+   .contenidoProd{
+       padding-top: -1rem !important;
+       margin-top: -1rem !important;
+       flex-basis: 100% !important;
+       max-width: 100% !important;
+       width: 100%;
+       flex-direction: column;    
+       
+     
+   }
+   @media only screen and (max-width:866px) {
+       .ns{
+      
+           flex-basis: 100% !important;
+           max-width: 100% !important;
+           width: 100%;
+           margin-left: auto !important;
+           margin-right: auto !important;
+           justify-content: center !important;
+           flex-direction: column;
+           
+           
+       }
+       .cajasProd{
+           margin-left: auto !important;
+           margin-right: auto !important;
+           justify-content: center !important;
+           flex-basis: 100%;
+           max-width: 100%;
+           width: 100%;
+
+       }
+       
+  
+     @media only screen  and (max-width:600px){
+       .ns{
+      
+           flex-basis: 100% !important;
+           max-width: 100% !important;
+           width: 100%;
+           margin-left: auto !important;
+           margin-right: auto !important;
+           justify-content: center !important;
+           flex-direction: column;
+           }
+   }
+}
+
+   .ns{
+      
+       flex-basis: 100% !important;
+       max-width: 100% !important;
+       width: 100%;
+       margin-left: auto !important;
+       margin-right: auto !important;
+       justify-content: center !important;
+ 
+       
+   }
+
+  .service-2{
+      margin-top: -1rem !important;
+      height: 10rem !important;
+     
+  }
+.imagen{
+   height: 1vh!important;
+}
+@import "compass/css3";
+
+/***********************
+* Essential Structure *
+***********************/
+.flexsearch--wrapper {
+   height: auto;
+   width: auto;
+   max-width: 100%;
+   overflow: hidden;
+   background: transparent;
+   position: static;
+   
+}
+   
+.flexsearch--form {
+   overflow: hidden;
+   position: relative;
+   justify-content: center !important;
+}
+   
+.flexsearch--input-wrapper {
+   padding: 0 66px 0 0; /* Right padding for submit button width */
+   overflow: hidden;
+   
+   
+}
+
+.flexsearch--input {
+ width: 100%;
+ 
+}
+
+/***********************
+* Configurable Styles *
+***********************/
+.flexsearch {
+ padding: 0 25px 0 200px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+ -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+    height: 60px;
+ padding: 0 46px 0 10px;
+   border-color:  #ADD100;
+ border-radius: 35px; /* (height/2) + border-width */
+ border-style: solid;
+   border-width: 5px;
+ margin-top: 15px;
+ color: #333;
+ font-family: 'Helvetica', sans-serif;
+   font-size: 26px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+   
+.flexsearch--submit {
+ position: absolute;
+   right: 0;
+   top: 0;
+   display: block;
+   width: 60px;
+   height: 60px;
+ padding: 0;
+ border: none;
+   margin-top: 20px; /* margin-top + border-width */
+ margin-right: 5px; /* border-width */
+   background: transparent;
+ color: #888;
+ font-family: 'Helvetica', sans-serif;
+ font-size: 40px;
+ line-height: 60px;
+}
+
+.flexsearch--input:focus {
+ outline: none;
+ border-color: #39FF14;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+    color: #333; 
+}
+
+.flexsearch--submit:hover {
+ color: #333;
+ cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+   color: #888;  
+}
+
+input:-moz-placeholder {
+ color: #888
+}
+
+
+/****************
+* Pretify demo *
+****************/
+.h1 {
+ float: left;
+ margin: 25px;
+ color: #333;
+ font-family: 'Helvetica', sans-serif;
+ font-size: 45px;
+ font-weight: bold;
+ line-height: 45px;
+ text-align: center;
+}
+.flexsearch--wrapper{
+
+   margin-left: -100px;
+   margin-top: -7rem;
+}
+.localizacion{
+   position: absolute;
+   display: flex;
+   color: #dedede !important;
+   font-family: 'Signika Negative', sans-serif;
+   font-weight: 900;
+
+}
+.posicion{
+   position: absolute;
+   display: flex;
+   margin-top: -12.5%;
+   margin-left: 87%;
+   padding-bottom: 1rem;
+   font-size: 1.5rem;
+}
+.flecha{
+   margin-top: 1.5%;
+   margin-right: 3%;
+}
+.productosTitulo{
+   display: flex;
+   flex-basis: 100%;
+   max-width: 100%;
+   position: relative;
+}
+.encabezdoTitulo{
+   font-family: 'Signika Negative', sans-serif;
+   color: black;
+   font-weight: 800;
+   margin-left: 2%;
+}
+.iconoCarrito{
+   position: absolute;
+   display: flex;
+   margin-top: -4.5rem;
+   margin-left: 90%;
+   
+}
+.iconoCarrito1{
+   position: absolute;
+   display: flex;
+   margin-top: .2rem;
+   margin-left: 88%;
+   
+}
+/*CARRUSEL--------------------------------------------------------*/
+.contenedorCarrusel{
+    position: relative;
+    display: flex;
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 30rem !important;
+    margin-bottom: 5rem;
+    margin-top: -4%;
+    
+ }
+ .carousel{
+    position: absolute;
+    display: flex;
+    flex-basis: 800rem !important;
+    max-width: 800rem !important;
+    width: 800rem !important;
+    margin-left: 10% !important;
+    max-height: 20% !important;
+    height: 10rem !important;
+    
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+ }
+ .slide{
+    position: relative;
+    flex-basis: 85rem !important;
+    max-width: 85rem !important;
+    width: 85rem !important;
+    min-height: 95%;   
+    margin-top: 1rem;
+    margin-left: auto !important;
+    margin-right: auto!important;
+ }
+ .carousel-inner{
+    position: relative !important;
+    flex-basis: 95%;
+    max-width: 95%;
+    width:95%;
+    height: 95% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    justify-content: center !important;
+    padding: 0% !important;
+    margin-left: auto !important;
+    margin-right: auto!important;
+ }
+ .carousel-item{
+    position: relative !important;
+    flex-basis: 100%;
+    max-width: 100%;
+    width:100%;
+    min-height: 100% !important;
+    height: 100% !important;
+    margin-top: 2rem !important;
+    margin-left: auto !important;
+    margin-right: auto!important;
+    
+ }
+ .imgenCrrusel{
+    position: relative;
+    display: flex;
+    width: 50% !important;
+    height: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto!important;
+ }
+ .carousel-control-prev,.carousel-control-next{
+    position: absolute;
+    display: flex !important;
+    flex-basis: 10% !important;
+    max-width: 10% !important;
+    width: 10% !important;
+    max-height: 20% !important;
+    height: 20% !important;
+    background-color:#8AC0FA;
+    align-items: center !important;
+    margin-top: 13% !important;
+    border-radius: 1rem;
+ }
+ .sr-only{
+    background-color: #333 !important;
+ }
+ .carousel-control-prev{
+    margin-left: 9% !important;
+ }
+ .carousel-control-next{
+    margin-right: 9% !important;
+ }
+ li{
+    background-color: #000;
+ }
+ a{
+    color: #333;
+ }
+ .textoVideo{
+     position: relative !important;
+     margin-top: .2rem !important;
+     margin-right: 30% !important;
+     line-height: .5px !important;
+ }
+ /* CARRUSEL DE IMAGNES PRODUCTOS ---------------------------------------------------------------*/
+ .texto{
+    display: flex;
+    position: relative;
+    flex-basis: 95%;
+    max-width:95%;
+    width: 95%;
+    margin-top: -2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 2.7%;
+    color: #333;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+ 
+ }
+ 
+ .sesion{
+    display: flex;
+    position: absolute;
+    font-size: 1.2rem;
+    margin-top: 95%;
+    color: #333;
+    font-family: 'Signika Negative', sans-serif;
+      
+  }
+  html {
+    overflow-x: hidden; }
+    .btn-whatsapp {
+              display:block;
+              width:70px;
+              height:70px;
+              color:#fff;
+              position: fixed;
+              right:20px;
+              bottom:20px;
+              border-radius:50%;
+              line-height:80px;
+              text-align:center;
+              z-index:999;
+        }

@@ -1,0 +1,225 @@
+
+form{
+  height: auto;
+  margin-top: 1.5rem;
+}
+.inicioSesion{
+  flex-basis: 40% !important;
+  max-width: 40% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 5px 5px 10px 10px  ;
+  background: rgba(255,255, 255, 0.27);
+}
+.emails,.paswors{
+  display: flex !important;
+  position:  relative !important;
+  width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+input{
+  background-color: white;
+  border: solid 0.5px aqua !important;
+  border-radius: .5rem;
+}
+.emails{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.btn{
+  display: flex;
+  position: relative;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  flex-basis: 98%;
+  max-width: 98%;
+  width: 98%;
+  background-color: aqua !important;
+  margin-top: 3% !important;
+}
+button{
+ position: absolute;
+  font-size: 2rem;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
+  padding-left: 36.5%;
+  
+}
+@media only screen and (max-width:1366px) {
+  .btn{
+    margin-top: -5% !important;
+    min-height: 3rem;
+    height: 3rem;
+  }
+  .emails{
+    margin-bottom: 1rem;
+    }
+  .cuenaOtros{
+    margin-top: 1.5rem !important;
+  }
+  .faceboock{
+    margin-top: 4.8%;
+  }
+  .iniciarSesTitulo{
+    margin-bottom: -1rem !important;
+
+  }
+  button{
+    padding-left: 30% !important;
+  }
+
+}
+.loginicorre,.loginicorre1{
+  position: absolute;
+  display: flex;
+  margin-left: -2.2rem;
+  margin-top: 1.5%;
+}
+.loginicorre1{
+
+  margin-left: -2.2rem  !important;
+  margin-top: 1% !important;
+}
+.loginicorre2{
+  position: absolute;
+  display: flex;
+  margin-left: -9%;
+  margin-top: 3%;
+}
+.recuTraeña{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: -5rem !important;
+  margin-right: auto !important;
+  margin-top: 10%;
+  width: 100%;
+  
+}
+.smct{
+  margin-top: 1rem;
+  font-family: 'Signika Negative', sans-serif;
+  margin-left: 30%;
+}
+.cuenaOtros{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  border-top: solid .3px;
+  border-bottom: solid .3px;
+  width: 98%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+
+}
+.cuentas{
+  margin-bottom: 5rem;
+  padding-bottom: 5rem; ;
+
+}
+.google{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60% !important;
+  max-width: 60% !important;
+  width: 60% !important;
+  margin-left: -90%;
+}
+.faceboock{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 77% !important;
+  max-width: 77% !important;
+  width: 77% !important;
+  margin-left: -30%;
+  padding-top: 2.7%;
+}
+.googles{
+  position:relative !important;
+  display: flex !important;
+  flex-direction: column;
+  margin-left: 55%;
+  margin-bottom: -1.7rem;
+  
+}
+.faceboocks{
+  position:relative !important;
+  display: flex !important;
+  flex-direction: column;
+  margin-left: 58.5%;
+}
+.otrosTexto{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-left: auto!important;
+  margin-right: auto !important;
+  width: 100%;
+}
+.textOtros{
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+.bloqueCuentas{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.ini{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: -2rem;
+  width: 50%;
+}
+.iniciarSesTitulo{
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 600;
+  color: black;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.ini{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 2rem;
+  width: 50%;
+}
+.iniciarSesTitulo{
+  position: relative;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 600;
+  color: black;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-size: 2rem;
+}
+.Registrate{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+small{
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
